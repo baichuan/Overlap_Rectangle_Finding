@@ -1,0 +1,18 @@
+project (IntervalTree) {
+ exename = overlappingRect.out
+ install = .
+ 
+ Source_Files {
+  main.cpp
+  Point.cpp
+  Edge.cpp
+//  testinsertdelete.cpp
+ }
+
+Template_Files{
+  Treenode.cpp
+  IntervalTree.cpp
+}
+
+}
+
